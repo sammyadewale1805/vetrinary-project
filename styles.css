@@ -259,6 +259,113 @@
 
 /* adewales styling///////////////     ///////////////// adewales styling  */
 
+<<<<<<< HEAD
+=======
+
+/* Service Section */
+
+.service-section {
+    background: #ffffff;
+    padding: 150px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.service-section .service-content {
+    flex: 0 1 auto;
+}
+
+.service-section .service-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #030303;
+    margin-bottom: 30px;
+}
+
+.service-section .service-content p {
+    color: #030303;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    padding-right: 200px;
+}
+
+.service-section .service-content a.primary-link {
+    display: inline-block;
+    padding: 16px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    background: #ffc400;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.service-section .service-content a.primary-link:hover {
+    background: #cc9d00;
+}
+
+.service-section .service-content a.primary-link:active,
+.service-section .service-content a.primary-link:visited {
+    display: inline-block;
+    padding: 16px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    background: #ffc400;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+/* Service Image style */
+
+.service-section .service-image {
+    flex: 0 1 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.service-section .service-image .image-overlay {
+    background: linear-gradient(to right, rgba(255, 196, 0, 0.5), rgba(255, 196, 0, 0.5)), url(./images/veterinarian-doctor.jpg) center no-repeat;
+    width: 509px;
+    min-width: 509px;
+    height: 339px;
+    min-height: 339px;
+}
+
+.service-section .service-image .yellow-square {
+    padding: 100px 100px;
+    background: rgb(255, 196, 0);
+    display: block;
+    position: absolute;
+    left: -40px;
+    bottom: -35px;
+    z-index: -2;
+    width: 30%;
+}
+
+.service-section .service-image .play-icon {
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+    position: absolute;
+    fill: #ffc400;
+    background: #ffffff;
+    stroke: none;
+    top: 140px;
+    bottom: 0;
+    left: 210px;
+    right: 0;
+    border-radius: 100%;
+}
+
+
+>>>>>>> 36d86a4155cd7a33b924cc2d6e623dbcbadfde54
 /* title section */
 
 .title-section {
@@ -266,6 +373,7 @@
 }
 
 .title-section .title-text h1 {
+<<<<<<< HEAD
   text-align: center;
   font-size: 48px;
   font-weight: 700;
@@ -273,6 +381,15 @@
   color: #ffffff;
   margin-bottom: 20px;
   text-transform: capitalize;
+=======
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 70px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+>>>>>>> 36d86a4155cd7a33b924cc2d6e623dbcbadfde54
 }
 
 .title-section .title-text p {
@@ -305,8 +422,91 @@
 }
 
 .title-content .img-info h3 {
+<<<<<<< HEAD
   text-align: center;
   color: #ffffff;
   font-size: 28px;
   font-weight: 600px;
 }
+=======
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600px;
+}
+
+
+/* Adewale's style ////// */
+
+
+/* team member section // */
+
+.team-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 150px 100px;
+}
+
+.team-section .team-member-img img {
+    width: 400px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.team-section .team-member-img h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.team-section .team-member-img h5 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.social-icons {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #F29F05;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+
+/*  countdown section  */
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 150px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(252, 194, 4, 0.5), rgba(231, 178, 4, 0.5)), url(./images/veterinarian-bg-img.jpg) center no-repeat;
+    padding: 200px;
+    color: #ffffff;
+}
+
+.countdown-content h3 {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.countdown-content h5 {
+    font-size: 30px;
+}
+
+.countdown-content img {
+    /* color: ; */
+    height: 100px;
+    width: 120px;
+}
+
+.countdown-content {
+    text-align: center;
+}
+>>>>>>> 36d86a4155cd7a33b924cc2d6e623dbcbadfde54
