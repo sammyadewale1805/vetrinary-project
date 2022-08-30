@@ -417,7 +417,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 150px 100px;
+    padding: 150px 150px;
 }
 
 .team-section .team-member-img img {
