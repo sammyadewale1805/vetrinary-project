@@ -501,6 +501,10 @@
 
 /* recent-post-section  */
 
+.recent-post-section {
+    margin: 100px 0px;
+}
+
 .post-description {
     display: flex;
     justify-content: center;
@@ -509,18 +513,19 @@
     padding: 30px 130px;
 }
 
-.recent-post-section {
-    padding: 100px 0px;
-}
-
 .recent-post-section .intro-text h2 {
     text-align: center;
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 24px;
 }
 
 .recent-post-section .intro-text p {
     text-align: center;
+    padding: 0 50px;
+    font-size: 22px;
+    line-height: 30px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.612);
 }
 
 .content-text {
@@ -538,9 +543,10 @@
 }
 
 .description-content .content-text h5 {
-    font-size: 25px;
+    font-size: 15px;
     color: #00bfcc;
     margin-top: 10px4;
+    margin-bottom: 30px;
 }
 
 .post-description .description-content img {
@@ -556,6 +562,34 @@
     text-decoration: none;
     color: #00bfcc;
     font-weight: bolder;
+}
+
+.description-content .content-text-shadowbox {
+    box-shadow: 20px;
+    border-top: none;
+    background-color: #ffffff;
+    padding-bottom: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* text-shadow: 15px 15px 15px rgba(168, 137, 137, 0.612); */
+}
+
+.description-content .content-text-shadowbox p {
+    margin: 10px 0px;
+}
+
+.description-content .content-text-shadowbox a {
+    text-decoration: none;
+    color: #00bfcc;
+    font-weight: bolder;
+    margin-bottom: 80px;
+}
+
+.description-content .content-text-shadowbox h5 {
+    font-size: 15px;
+    color: #00bfcc;
+    margin-top: 10px4;
+    margin-bottom: 30px;
 }
 
 
